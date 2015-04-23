@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+            margin-right: 2em;
+}
+
+div#container{
+	margin: auto;
+	margin-top: 20px;
+	width: 900px;
+	height: 800px;
+	background-color: white;
+}
+
+
+
+div#peliculas-ano{
+	float: flex;
+	margin: auto;
+	margin-top: 60px;
+	width: 750px;
+	height: 275px;
+	background-color: white;
+}
+
+div#comentarios-rating{
+	float: flex;
+	margin: auto;
+	margin-top: 60px;
+	width: 750px;
+	height: 275px;
+	background-color: white;
+}
+
+
+body {
+  font-family: "Comic Sans MS";
+  margin: 40px auto;
+  min-height: 2000px;
+}
+
+#body {
+  position: relative;
+}
+
+footer {
+  padding: 2em 0 1em 0;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+h1 + h2 {
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+h1, h2 {
+  font-family: "Yanone Kaffeesatz";
+  text-rendering: optimizeLegibility;
+}
+
+td {
+    padding: 10px;
+}
+
+article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+	
+.row1 {
+	width: 100%;
+	display: flex;
+}
+	
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 41.66%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33%;
+}
+
+.col-8{
+	width: 66.66%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33%;
+}
+
+col-11{
+	width: 91.66%;
+}
+
+col-12{
+	width: 100%;
+}
+
+#body > p {
+  line-height: 1.5em;
+  width: 640px;
+  text-rendering: optimizeLegibility;
+}
